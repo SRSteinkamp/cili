@@ -1,6 +1,6 @@
 import pandas as pd
 import pandas.io.pytables as pt
-from pandas.compat import u_safe as u, string_types, isidentifier
+from pandas.compat import  string_types, isidentifier
 
 
 class SaveMixin(object):
